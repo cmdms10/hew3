@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'JosefinSans';
+  src: url('./public/font/JosefinSans.ttf') format('truetype');
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+* body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  color: #222;
+}
+* body header .color {
+  background-color: rgba(0, 0, 0, 0.4);
+  box-shadow: none;
+}
+* body header .color .changeFont {
+  font-family: 'Josefin Sans', sans-serif;
+}
+* body main {
+  flex: 1 0 auto;
+}
+* body .page-footer {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+* body .page-footer .container p {
+  color: #222;
+}
